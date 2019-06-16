@@ -13,6 +13,9 @@
 		D397D10D22B5E5AB0098AB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D397D10C22B5E5AB0098AB70 /* Assets.xcassets */; };
 		D397D11022B5E5AB0098AB70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D397D10F22B5E5AB0098AB70 /* Preview Assets.xcassets */; };
 		D397D11322B5E5AB0098AB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D397D11122B5E5AB0098AB70 /* LaunchScreen.storyboard */; };
+		D397D11D22B5EE100098AB70 /* QiitaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397D11C22B5EE100098AB70 /* QiitaAPI.swift */; };
+		D397D12022B5F72B0098AB70 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397D11E22B5F72B0098AB70 /* CollectionViewCell.swift */; };
+		D397D12122B5F72B0098AB70 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D397D11F22B5F72B0098AB70 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D397D10F22B5E5AB0098AB70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D397D11222B5E5AB0098AB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D397D11422B5E5AB0098AB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D397D11C22B5EE100098AB70 /* QiitaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaAPI.swift; sourceTree = "<group>"; };
+		D397D11E22B5F72B0098AB70 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D397D11F22B5F72B0098AB70 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,15 @@
 		D397D10522B5E5AA0098AB70 /* CompositionalLayoutsSample */ = {
 			isa = PBXGroup;
 			children = (
-				D397D10622B5E5AA0098AB70 /* AppDelegate.swift */,
-				D397D10822B5E5AA0098AB70 /* SceneDelegate.swift */,
-				D397D10A22B5E5AA0098AB70 /* ContentView.swift */,
-				D397D10C22B5E5AB0098AB70 /* Assets.xcassets */,
-				D397D11122B5E5AB0098AB70 /* LaunchScreen.storyboard */,
 				D397D11422B5E5AB0098AB70 /* Info.plist */,
+				D397D10622B5E5AA0098AB70 /* AppDelegate.swift */,
+				D397D11E22B5F72B0098AB70 /* CollectionViewCell.swift */,
+				D397D10A22B5E5AA0098AB70 /* ContentView.swift */,
+				D397D11C22B5EE100098AB70 /* QiitaAPI.swift */,
+				D397D10822B5E5AA0098AB70 /* SceneDelegate.swift */,
+				D397D10C22B5E5AB0098AB70 /* Assets.xcassets */,
+				D397D11F22B5F72B0098AB70 /* CollectionViewCell.xib */,
+				D397D11122B5E5AB0098AB70 /* LaunchScreen.storyboard */,
 				D397D10E22B5E5AB0098AB70 /* Preview Content */,
 			);
 			path = CompositionalLayoutsSample;
@@ -135,6 +144,7 @@
 			files = (
 				D397D11322B5E5AB0098AB70 /* LaunchScreen.storyboard in Resources */,
 				D397D11022B5E5AB0098AB70 /* Preview Assets.xcassets in Resources */,
+				D397D12122B5F72B0098AB70 /* CollectionViewCell.xib in Resources */,
 				D397D10D22B5E5AB0098AB70 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D397D12022B5F72B0098AB70 /* CollectionViewCell.swift in Sources */,
 				D397D10722B5E5AA0098AB70 /* AppDelegate.swift in Sources */,
 				D397D10922B5E5AA0098AB70 /* SceneDelegate.swift in Sources */,
+				D397D11D22B5EE100098AB70 /* QiitaAPI.swift in Sources */,
 				D397D10B22B5E5AA0098AB70 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
